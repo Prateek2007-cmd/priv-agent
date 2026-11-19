@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PRIV Agent guide</title>
+    <style>
+      body {
+        font:
+          16px/1.6 system-ui,
+          sans-serif;
+        background: #f7fbf9;
+        color: #16394a;
+        max-width: 760px;
+        margin: 4rem auto;
+        padding: 0 1.5rem;
+      }
+      h1 {
+        font-size: 2.2rem;
+        margin-bottom: 0.3rem;
+      }
+      h2 {
+        margin-top: 2rem;
+      }
+      a {
+        color: #235b74;
+      }
+      code {
+        background: #e6f1ed;
+        padding: 0.1rem 0.3rem;
+        border-radius: 0.3rem;
+      }
+      li {
+        margin-bottom: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>PRIV Agent</h1>
+    <p
+      >Your assistant in the browser. Open the side panel, connect a tool calling model in Settings, and describe a
+      task.</p
+    >
+    <h2>Connect a model</h2>
+    <ol
+      ><li>Open Settings → Providers.</li
+      ><li>Add OpenAI-compatible, Ollama, LM Studio, or another supported provider.</li
+      ><li>Enter the endpoint, model ID, and key if needed. Run Test models and pick a default model.</li></ol
+    >
+    <h2>Research and messaging</h2>
+    <p
+      >Ask for a summary with sources. Review the pages and links before using a report. If you ask the agent to send a
+      WhatsApp message, check the contact and complete draft in WhatsApp Web before approving the action card. The
+      extension will not bypass sign-in.</p
+    >
+    <h2>Controls</h2>
+    <p
+      >Use Stop to cancel the current task. Settings → Permissions controls site access and Ask/Auto behavior. WhatsApp
+      Web writes always require fresh approval.</p
+    >
+    <p
+      >Built from <a href="https://github.com/nanobrowser/nanobrowser">Nanobrowser</a>, licensed under Apache 2.0. The
+      attribution and license are in the source package.</p
+    >
+  </body>
+</html>
