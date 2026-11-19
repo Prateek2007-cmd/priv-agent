@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "PRIV Agent"
+  },
+  "extDescription": {
+    "message": "An AI agent that works in your browser, in a side panel beside the page"
+  },
+  "actionTitle": {
+    "message": "Open PRIV Agent"
+  },
+  "commandOpenPanel": {
+    "message": "Open the PRIV Agent panel"
+  },
+  "menuAskAboutSelection": {
+    "message": "Ask PRIV Agent about this"
+  }
+}

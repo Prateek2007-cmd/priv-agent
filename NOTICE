@@ -1,0 +1,9 @@
+PRIV Agent
+
+This independent fork is based on Nanobrowser (https://github.com/nanobrowser/nanobrowser),
+upstream commit 291d5f3927ee4c4795b0ea4588f2b404838b3ff6.
+Copyright and attribution for upstream source remain with the original contributors.
+Licensed under the Apache License, Version 2.0; see LICENSE.
+
+This fork changes product branding, icons, theme colors, defaults for anonymous
+analytics, research and WhatsApp guidance, and the WhatsApp write approval rule.
